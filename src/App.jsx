@@ -86,7 +86,7 @@ const App = () => {
         preview.style.transform = `translateX(-50%) translateY(${previewMaxTranslate}px)`;
       }
 
-      
+
       const togglePoint = window.innerHeight * 4;
       const wrapper = document.querySelector(".wrapper");
 
@@ -156,6 +156,18 @@ const App = () => {
           y de nuestros bebes. Gracias por ser mi compañera de vida, mi amiga, mi amante, mi todo.
         </h1>
         <h1>Puro Cromo y Negro</h1>
+        <div className="youtube-container" style={{ textAlign: "center", marginTop: "2rem" }}>
+          <iframe
+            width="1000"
+            height="400"
+            src="https://www.youtube.com/embed/gL6pN8IjXmQ?autoplay=1"
+            title="CRUZ CAFUNÉ - Cangrinaje (Visualizer)"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
