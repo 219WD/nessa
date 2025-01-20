@@ -162,7 +162,6 @@ const App = () => {
             height="400"
             src="https://www.youtube.com/embed/gL6pN8IjXmQ?autoplay=1"
             title="CRUZ CAFUNÉ - Cangrinaje (Visualizer)"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
