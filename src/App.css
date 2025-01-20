@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #000;
   transition: 0.5s background-color;
@@ -148,6 +148,10 @@ nav {
 }
 
 @media (max-width: 900px) {
+  .wrapper {
+    overflow: hidden;
+    padding: 1rem;
+  }
   h1 {
     font-size: 32px;
     margin-bottom: 0.5em;
@@ -177,7 +181,7 @@ nav {
   }
 
   .item-copy {
-    flex-direction: column; /* Hacer que las líneas sean verticales */
+    flex-direction: row; /* Hacer que las líneas sean verticales */
     text-align: center;
   }
 
@@ -191,6 +195,10 @@ nav {
 
   .active-img-indicator {
     display: none; /* Reducir elementos visuales innecesarios */
+  }
+
+  .images{
+    width: 100%; /* Ajustar al contenedor */
   }
 }
 
