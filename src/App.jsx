@@ -86,6 +86,7 @@ const App = () => {
         preview.style.transform = `translateX(-50%) translateY(${previewMaxTranslate}px)`;
       }
 
+      
       const togglePoint = window.innerHeight * 4;
       const wrapper = document.querySelector(".wrapper");
 
